@@ -1,0 +1,32 @@
+#app{
+ 
+}
+
+.comp-menu-list{
+    position: fixed;
+    left: 0;
+    top: calc(50vh - 162px);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 3px 20px lightgray;
+    border: 1px solid lightgrey;
+}
+
+.comp-menu-list > span{
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.comp-menu-list > span:hover{
+    cursor: pointer;
+    background: lightgray;
+}
+
+.comp-btn + .comp-btn{
+    border-top: 1px dashed lightgray;
+}
+
+/*# sourceMappingURL=/graphics_logic.9ad09f98.css.map */
